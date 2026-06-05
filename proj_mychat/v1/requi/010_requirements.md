@@ -6,14 +6,14 @@ tags:
 - requirements
 persona: kilo_extension
 status: active
-version: V00.02.00
+version: V00.03.00
 updated: 2026-06-05
 summary: 'Requirements derived from kilo_client.py v1/src source.'
 ```
 
 # Requirements: Kilo Client Python
 
-> Version: V00.02.00
+> Version: V00.03.00
 
 ## Overview
 
@@ -69,5 +69,6 @@ Python client library for calling Kilo AI from Python applications and command l
 
 | Version | Date | Author | Reason |
 |---------|------|--------|--------|
+| V00.03.00 | 2026-06-05 | ai(cline) | Add kilo_is_running function and usage docs |
 | V00.02.00 | 2026-06-05 | ai(cline) | Add kilo_is_running function |
 | V00.01.00 | 2026-06-05 | ai(cline) | Initial requirements from kilo_client.py |

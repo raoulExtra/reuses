@@ -1,5 +1,5 @@
 # Kilo Client Python v1
-> Version: V00.02.00
+> Version: V00.03.00
 
 Python client library for calling Kilo AI from Python applications. Provides functions to run Kilo with messages, start Kilo servers, and check server availability.
 
@@ -27,11 +27,57 @@ v1/
 └── README.md
 ```
 
+## Usage
+
+### kilo_run()
+
+```python
+from kilo_client import kilo_run
+
+result = kilo_run(
+    message="Hello Kilo",
+    model="gpt-4",              # optional
+    format="json",              # default: "json"
+    session="sess-123",         # optional
+    continue_session=False,     # default: False
+    attach="http://localhost:4096"  # default
+)
+# Returns: {"events": [...], "text": "...", "session_id": "..."}
+```
+
+### kilo_serve()
+
+```python
+from kilo_client import kilo_serve
+
+proc = kilo_serve(
+    port=0,           # default: 0 (ephemeral)
+    hostname="127.0.0.1"  # default
+)
+```
+
+### kilo_is_running()
+
+```python
+from kilo_client import kilo_is_running
+
+running = kilo_is_running("http://localhost:4096")
+# Returns: True if server responds with 200, False otherwise
+```
+
+### Command Line
+
+```bash
+python kilo_client.py "your message"
+# Special: python kilo_client.py "echo test" -> prints "echo: test"
+```
+
 ---
 
 ## Change History
 
 | Version | Date | Author | Reason |
 |---------|------|--------|--------|
+| V00.03.00 | 2026-06-05 | ai(cline) | Add usage documentation |
 | V00.02.00 | 2026-06-05 | ai(cline) | Add kilo_is_running function |
 | V00.01.00 | 2026-06-05 | ai(cline) | Initial README for v1 |
