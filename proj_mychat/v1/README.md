@@ -1,5 +1,5 @@
 # Kilo Client Python v1
-> Version: V00.03.00
+> Version: V00.04.00
 
 Python client library for calling Kilo AI from Python applications. Provides functions to run Kilo with messages, start Kilo servers, and check server availability.
 
@@ -62,7 +62,7 @@ proc = kilo_serve(
 from kilo_client import kilo_is_running
 
 running = kilo_is_running("http://localhost:4096")
-# Returns: True if server responds with 200, False otherwise
+# Returns: True if server responds (even with 401), False on connection error
 ```
 
 ### Command Line
@@ -78,6 +78,7 @@ python kilo_client.py "your message"
 
 | Version | Date | Author | Reason |
 |---------|------|--------|--------|
+| V00.04.00 | 2026-06-05 | ai(cline) | Fix kilo_is_running to return True on any HTTP response |
 | V00.03.00 | 2026-06-05 | ai(cline) | Add usage documentation |
 | V00.02.00 | 2026-06-05 | ai(cline) | Add kilo_is_running function |
 | V00.01.00 | 2026-06-05 | ai(cline) | Initial README for v1 |

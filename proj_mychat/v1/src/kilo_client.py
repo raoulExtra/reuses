@@ -14,10 +14,12 @@ from typing import Any
 def kilo_is_running(attach: str = "http://localhost:4096") -> bool:
     """Check if a Kilo server is already running at the attach endpoint."""
     try:
-        url = attach.rstrip("/") + "/api/status"
-        req = urllib.request.Request(url, method="GET")
+        url = attach.rstrip("/") + "/"
+        req = urllib.request.Request(url)
         with urllib.request.urlopen(req, timeout=2) as resp:
-            return resp.status == 200
+            return True
+    except urllib.error.HTTPError:
+        return True
     except Exception:
         return False
 
