@@ -73,9 +73,8 @@ if __name__ == "__main__":
     msg = " ".join(sys.argv[1:])
     
     if msg == "echo test":
-        print("echo: test")
+        print(json.dumps({"text": "echo: test", "events": [], "session_id": None}))
         sys.exit(0)
     
     result = kilo_run(msg)
-#    print(result["text"])
-    print(result)
+    print(json.dumps(result))

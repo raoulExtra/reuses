@@ -19,8 +19,8 @@ summary: 'Requirements for kilo_is_running function.'
 
 ### Endpoint Check
 - [x] **FR-KCCHECK-01** Check if Kilo server is running at attach endpoint
-- [x] **FR-KCCHECK-02** Return `True` if server responds with HTTP 200
-- [x] **FR-KCCHECK-03** Return `False` on any error or timeout
+- [x] **FR-KCCHECK-02** Return `True` for any HTTP response (including 401)
+- [x] **FR-KCCHECK-03** Return `False` on connection error or timeout
 
 ### Parameters
 - [x] **FR-KCCHECK-04** `attach` parameter (string, default: "http://localhost:4096")
@@ -35,6 +35,7 @@ summary: 'Requirements for kilo_is_running function.'
 - [x] **TEST-KCCHECK-01** Test returns True when server running
 - [x] **TEST-KCCHECK-02** Test returns False when server not running
 - [x] **TEST-KCCHECK-03** Test timeout handling
+- [x] **TEST-KCCHECK-04** Test harness file: `reuses/proj_mychat/v1/requi/harness/010_file_harness.md`
 
 ---
 

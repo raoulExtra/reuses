@@ -62,6 +62,7 @@ Python client library for calling Kilo AI from Python applications and command l
 - [x] **TEST-KC-05** Unit test for CLI with echo test
 - [x] **TEST-KC-06** Unit test for kilo_is_running
 - [x] **TEST-KC-07** Integration test with actual Kilo server (sim mode)
+- [x] **TEST-KC-08** Test harness file: `reuses/proj_mychat/v1/requi/harness/010_file_harness.md`
 
 ---
 

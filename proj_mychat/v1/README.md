@@ -24,7 +24,10 @@ v1/
 │   ├── 040_cli.md
 │   ├── 050_kilo_is_running.md
 │   └── 990_comparison.md
-└── README.md
+└── requi/harness/        # Test harness files
+    ├── 010_file_harness.md
+    ├── test_queries.txt     # Test file with sample queries
+    └── run_harness.py       # File harness script
 ```
 
 ## Usage

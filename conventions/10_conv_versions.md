@@ -18,7 +18,7 @@ summary: 'Convention document: Convention: versioning of markdown docs.'
 Standardize how we record versions and change history inside markdown documents.
 
 ## Current AI
-author ai(cline)
+author ai(kilo laguna)
 
 ## Version format
 

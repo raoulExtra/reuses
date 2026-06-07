@@ -49,6 +49,11 @@ Examples:
 - **Integration tests**: Test interactions between components
 - **Simulation tests**: Test multi-agent scenarios without consuming tokens
 
+### Test Harness Reference
+
+Requirements documents may reference test harness files for testing infrastructure:
+- `reuses/proj_mychat/v1/requi/harness/010_file_harness.md`
+
 ### Constraints
 
 - Tests MUST reference the requirement ID being tested (e.g. **FR-MA-CORE-01**)
