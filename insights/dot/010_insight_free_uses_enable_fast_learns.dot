@@ -1,0 +1,55 @@
+digraph FreeUsesEnableFastLearns {
+    rankdir=TB;
+    node [shape=box, style=filled, color=lightblue];
+
+    // Main concept
+    FreeAccess [label="Free tiers\\nfree usage allowances"];
+
+    // Enables
+    Enables [label="Enables rapid\\nexperimentation and learning\\n(without financial barriers)"];
+
+    // Activities from free access
+    Test [label="Test features\\nand functionalities\\nfreely"];
+    Iterate [label="Iterate on\\nconfigurations\\nand approaches\\nquickly"];
+    Validate [label="Validate concepts\\nand workflows\\nin real scenarios"];
+    Learn [label="Learn from\\nfailures and successes\\nwithout cost concerns"];
+
+    // Free-to-learn approach (aggregation of activities)
+    FreeToLearn [label="Free-to-learn\\napproach"];
+
+    // Combination leads to high learning velocity
+    Combination [label="Combination of\\nfree access and\\naffordable options"];
+    HighVelocity [label="Environment with\\nhigh learning velocity\\n(users can run\\nnumerous experiments daily)"];
+
+    // Understanding areas
+    Core [label="Core capabilities\\nand limitations"];
+    Integration [label="Integration patterns\\nand workflows"];
+    BestPractices [label="Best practices\\nand optimization techniques"];
+    Troubleshooting [label="Troubleshooting\\nand problem-solving\\napproaches"];
+
+    // Final outcome
+    ReducedCycle [label="Reduces cycle time\\nfrom hypothesis to validation"];
+    FasterInnovation [label="Fosters faster\\nskill development\\nand innovation"];
+
+    // Edges
+    FreeAccess -> Enables;
+    Enables -> Test;
+    Enables -> Iterate;
+    Enables -> Validate;
+    Enables -> Learn;
+
+    Test -> FreeToLearn;
+    Iterate -> FreeToLearn;
+    Validate -> FreeToLearn;
+    Learn -> FreeToLearn;
+
+    FreeToLearn -> Combination;
+    Combination -> HighVelocity;
+    HighVelocity -> Core;
+    HighVelocity -> Integration;
+    HighVelocity -> BestPractices;
+    HighVelocity -> Troubleshooting;
+
+    FreeToLearn -> ReducedCycle;
+    ReducedCycle -> FasterInnovation;
+}

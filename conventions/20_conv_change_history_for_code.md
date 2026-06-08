@@ -7,7 +7,6 @@ persona: kilo_extension
 status: active
 version: V00.05.00
 updated: 2026-06-04
-summary: 'Convention document: Change History for code.'
 ```
 
 # Convention: Change History for code

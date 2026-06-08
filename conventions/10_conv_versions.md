@@ -7,7 +7,6 @@ persona: kilo_extension
 status: active
 version: V00.02.00
 updated: 2026-06-05
-summary: 'Convention document: Convention: versioning of markdown docs.'
 ```
 
 # Convention: versioning of markdown docs
@@ -52,6 +51,7 @@ Every doc ends with:
 | Version | Date | Author | Reason |
 |---------|------|--------|--------|
 | V00.01.00 | 2026-05-13 | ai(deepseek) | Document created |
+
 ```
 
 Rules:
