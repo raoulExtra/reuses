@@ -1,68 +1,42 @@
-<svg width="600" height="700" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
-  <!-- Background -->
-  <rect width="100%" height="100%" fill="#f5f5f5"/>
-  
-  <!-- App Bar -->
-  <rect x="0" y="0" width="600" height="56" fill="#6200ee" rx="0"/>
-  <text x="24" y="38" fill="white" font-size="20" font-weight="500">Free Uses Enable Fast Learns</text>
-  
-  <!-- Content Area -->
-  <g transform="translate(24, 72)">
-    <!-- Main Concept -->
-    <text x="0" y="24" font-size="14" fill="#333" font-weight="500">Free tiers or free usage allowances in software tools and platforms</text>
-    
-    <text x="0" y="52" font-size="14" fill="#333" font-weight="500">Enables rapid experimentation and learning without financial barriers</text>
-    
-    <!-- Enabled Activities Section -->
-    <text x="0" y="92" font-size="16" font-weight="600" fill="#121212">Enabled Activities:</text>
-    
-    <g transform="translate(16, 120)">
-      <circle cx="6" cy="6" r="4" fill="#6200ee"/>
-      <text x="16" y="12" font-size="13" fill="#333">Test features and functionalities freely</text>
-    </g>
-    
-    <g transform="translate(16, 148)">
-      <circle cx="6" cy="6" r="4" fill="#6200ee"/>
-      <text x="16" y="12" font-size="13" fill="#333">Iterate on configurations and approaches quickly</text>
-    </g>
-    
-    <g transform="translate(16, 176)">
-      <circle cx="6" cy="6" r="4" fill="#6200ee"/>
-      <text x="16" y="12" font-size="13" fill="#333">Validate concepts and workflows in real scenarios</text>
-    </g>
-    
-    <g transform="translate(16, 204)">
-      <circle cx="6" cy="6" r="4" fill="#6200ee"/>
-      <text x="16" y="12" font-size="13" fill="#333">Learn from failures and successes without cost concerns</text>
-    </g>
-    
-    <!-- Understanding Areas Section -->
-    <text x="0" y="252" font-size="16" font-weight="600" fill="#121212">Understanding Areas:</text>
-    
-    <g transform="translate(16, 280)">
-      <circle cx="6" cy="6" r="4" fill="#6200ee"/>
-      <text x="16" y="12" font-size="13" fill="#333">Core capabilities and limitations</text>
-    </g>
-    
-    <g transform="translate(16, 308)">
-      <circle cx="6" cy="6" r="4" fill="#6200ee"/>
-      <text x="16" y="12" font-size="13" fill="#333">Integration patterns and workflows</text>
-    </g>
-    
-    <g transform="translate(16, 336)">
-      <circle cx="6" cy="6" r="4" fill="#6200ee"/>
-      <text x="16" y="12" font-size="13" fill="#333">Best practices and optimization techniques</text>
-    </g>
-    
-    <g transform="translate(16, 364)">
-      <circle cx="6" cy="6" r="4" fill="#6200ee"/>
-      <text x="16" y="12" font-size="13" fill="#333">Troubleshooting and problem-solving approaches</text>
-    </g>
-    
-    <!-- Outcome Section -->
-    <g transform="translate(0, 412)">
-      <text x="0" y="20" font-size="14" fill="#333">Reduces cycle time from hypothesis to validation</text>
-      <text x="0" y="40" font-size="14" fill="#333">Fosters faster skill development and innovation across various software domains</text>
-    </g>
-  </g>
+<svg width="700" height="800" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+<defs>
+<marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+<polygon points="0 0, 10 3.5, 0 7" fill="#6200ee"/>
+</marker>
+</defs>
+<rect width="100%" height="100%" fill="#fafafa"/>
+<g transform="translate(100, 40)">
+<rect x="0" y="0" width="500" height="35" rx="6" fill="#6200ee"/>
+<text x="250" y="23" font-size="13" font-weight="500" text-anchor="middle" fill="white">Free Access: Free tiers/usage allowances</text>
+<line x1="250" y1="35" x2="250" y2="60" stroke="#6200ee" stroke-width="2" marker-end="url(#arrowhead)"/>
+<rect x="75" y="60" width="350" height="30" rx="6" fill="#7b1fa2"/>
+<text x="250" y="80" font-size="12" font-weight="500" text-anchor="middle" fill="white">Enables rapid experimentation &amp; learning</text>
+<line x1="250" y1="90" x2="250" y2="125" stroke="#7b1fa2" stroke-width="2" marker-end="url(#arrowhead)"/>
+<rect x="0" y="125" width="500" height="150" rx="6" fill="#fff" stroke="#6200ee" stroke-width="1"/>
+<text x="250" y="148" font-size="13" font-weight="600" text-anchor="middle" fill="#121212">Enabled Activities:</text>
+<g transform="translate(15, 170)"><circle cx="5" cy="5" r="3" fill="#6200ee"/><text x="12" y="9" font-size="11" fill="#333">Test features &amp; functionalities freely</text></g>
+<g transform="translate(15, 195)"><circle cx="5" cy="5" r="3" fill="#6200ee"/><text x="12" y="9" font-size="11" fill="#333">Iterate configs &amp; approaches quickly</text></g>
+<g transform="translate(15, 220)"><circle cx="5" cy="5" r="3" fill="#6200ee"/><text x="12" y="9" font-size="11" fill="#333">Validate concepts &amp; workflows</text></g>
+<g transform="translate(15, 245)"><circle cx="5" cy="5" r="3" fill="#6200ee"/><text x="12" y="9" font-size="11" fill="#333">Learn from failures without cost</text></g>
+<line x1="250" y1="270" x2="250" y2="300" stroke="#6200ee" stroke-width="2" marker-end="url(#arrowhead)"/>
+<rect x="75" y="300" width="350" height="25" rx="6" fill="#3700b3"/>
+<text x="250" y="318" font-size="12" font-weight="500" text-anchor="middle" fill="white">Free-to-Learn Approach</text>
+<line x1="250" y1="325" x2="250" y2="360" stroke="#3700b3" stroke-width="2" marker-end="url(#arrowhead)"/>
+<rect x="0" y="360" width="500" height="25" rx="6" fill="#0029ff"/>
+<text x="250" y="378" font-size="12" font-weight="500" text-anchor="middle" fill="white">Combination: Free access + affordable options</text>
+<line x1="250" y1="385" x2="250" y2="420" stroke="#0029ff" stroke-width="2" marker-end="url(#arrowhead)"/>
+<rect x="0" y="420" width="500" height="25" rx="6" fill="#00bfa5"/>
+<text x="250" y="438" font-size="12" font-weight="500" text-anchor="middle" fill="white">High Learning Velocity Environment</text>
+<line x1="250" y1="445" x2="250" y2="480" stroke="#00bfa5" stroke-width="2" marker-end="url(#arrowhead)"/>
+<rect x="0" y="480" width="500" height="120" rx="6" fill="#fff" stroke="#00bfa5" stroke-width="1"/>
+<text x="250" y="503" font-size="13" font-weight="600" text-anchor="middle" fill="#121212">Understanding Areas:</text>
+<g transform="translate(15, 525)"><circle cx="5" cy="5" r="3" fill="#00bfa5"/><text x="12" y="9" font-size="10" fill="#333">Core capabilities &amp; limitations</text></g>
+<g transform="translate(15, 545)"><circle cx="5" cy="5" r="3" fill="#00bfa5"/><text x="12" y="9" font-size="10" fill="#333">Integration patterns &amp; workflows</text></g>
+<g transform="translate(15, 565)"><circle cx="5" cy="5" r="3" fill="#00bfa5"/><text x="12" y="9" font-size="10" fill="#333">Best practices &amp; optimization</text></g>
+<g transform="translate(15, 585)"><circle cx="5" cy="5" r="3" fill="#00bfa5"/><text x="12" y="9" font-size="10" fill="#333">Troubleshooting &amp; problem-solving</text></g>
+<line x1="250" y1="605" x2="250" y2="640" stroke="#00bfa5" stroke-width="2" marker-end="url(#arrowhead)"/>
+<rect x="0" y="640" width="500" height="50" rx="6" fill="#2e7d32"/>
+<text x="250" y="660" font-size="12" font-weight="500" text-anchor="middle" fill="white">Reduces cycle time from hypothesis to validation</text>
+<text x="250" y="678" font-size="12" font-weight="500" text-anchor="middle" fill="white">Fosters faster skill development &amp; innovation</text>
+</g>
 </svg>
